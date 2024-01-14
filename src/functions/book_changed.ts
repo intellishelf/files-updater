@@ -7,8 +7,7 @@ const databaseId = 'MyDb'
 const containerId = 'Books'
 
 const client = new CosmosClient(
-  'AccountEndpoint=https://intellitest.documents.azure.com:443/;AccountKey=T3xg7A2DoRaRkXb6hCmeMYdz29BvQCzGf9tjIRHznUiEGT7lKimbqUaK4PcjdZYhmRSa1P5fNYgCACDbzirx4A==;'
-)
+'')
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY // This is the default and can be omitted
